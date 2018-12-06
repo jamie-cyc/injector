@@ -1,4 +1,3 @@
-console.log("test1");
 chrome.webRequest.onHeadersReceived.addListener(
     function(details) {
         details.responseHeaders.push(
